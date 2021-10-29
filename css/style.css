@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 :root {
-  --primary-color: #563fcf; 
+  --primary-color: #01168b; 
   --secondary-color: black;
   --dark-color: #00ccf8;
   --light-color: #f4f4f4;
@@ -32,7 +32,7 @@ a {
 
 h1,
 h2 {
-  font-weight: 300;
+  font-weight: 900;
   line-height: 1.2;
   margin: 10px 0;
 }
@@ -51,12 +51,17 @@ pre {
   color: #fff;
   padding: 10px;
 }
-
+.card.flex > i {
+    color: var(--primary-color);
+}
 .hidden {
   visibility: hidden;
   height: 0;
 }
-
+.title{
+    font-weight: bold;
+    color: var(--primary-color);
+}
 /* Navbar */
 .navbar {
   background-color: var(--primary-color);
@@ -92,6 +97,7 @@ pre {
 
 .showcase h1 {
   font-size: 40px;
+
 }
 
 .showcase p {
